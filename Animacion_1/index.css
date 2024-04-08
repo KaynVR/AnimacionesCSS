@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.Item {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    animation-name: animacion;
+    animation-duration: 5s;
+}
+
+/* .Item:hover {
+
+} */
+
+@keyframes animacion {
+    0% {
+        background-color: blue;
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+    }
+    50% {
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        left: 0px;
+        top: 300px;
+    }
+    100% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+}
